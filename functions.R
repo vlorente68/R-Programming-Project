@@ -20,3 +20,4 @@ column_mean <- function (x, removeNA = TRUE) {
   }
   means
 }
+
