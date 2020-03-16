@@ -16,6 +16,7 @@ pollutantmean <- function (directory, pollutant, id = 1:332) {
     
   }
   
+  # Return the mean of the column indicated in pollutant
   mean(pollution_df[[pollutant]],na.rm = TRUE)
   
 }
